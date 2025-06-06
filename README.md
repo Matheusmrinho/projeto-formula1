@@ -7,9 +7,9 @@
 
 ## 📜 Descrição
 
-Este projeto consiste em um pipeline de ETL (Extração, Transformação e Carga) automatizado, desenvolvido em Python. [cite_start]Ele foi projetado para extrair dados de corridas de Fórmula 1 de um conjunto de arquivos CSV, processá-los e carregá-los em um banco de dados relacional PostgreSQL. [cite_start]O objetivo final é disponibilizar esses dados de forma estruturada através de views no banco, prontas para serem consumidas por ferramentas de relatórios e análise.
+Este projeto consiste em um pipeline de ETL (Extração, Transformação e Carga) automatizado, desenvolvido em Python. Ele foi projetado para extrair dados de corridas de Fórmula 1 de um conjunto de arquivos CSV, processá-los e carregá-los em um banco de dados relacional PostgreSQL. O objetivo final é disponibilizar esses dados de forma estruturada através de views no banco, prontas para serem consumidas por ferramentas de relatórios e análise.
 
-[cite_start]Os dados são uma amostra do conjunto de dados público **Ergast**, disponibilizados em um repositório específico no GitHub para este desafio.
+Os dados são uma amostra do conjunto de dados público **Ergast**, disponibilizados em um repositório específico no GitHub para este desafio.
 
 ## ✨ Funcionalidades
 
