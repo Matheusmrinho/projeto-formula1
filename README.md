@@ -13,15 +13,15 @@ Este projeto consiste em um pipeline de ETL (Extração, Transformação e Carga
 
 ## ✨ Funcionalidades
 
--   [cite_start]**Extração:** Download automático dos arquivos CSV de URLs especificadas. [cite_start]O script cria a pasta de destino e verifica hashes MD5 para evitar downloads repetidos e desnecessários.
+-   **Extração:** Download automático dos arquivos CSV de URLs especificadas. [cite_start]O script cria a pasta de destino e verifica hashes MD5 para evitar downloads repetidos e desnecessários.
 -   **Transformação:** Processamento dos dados brutos com a biblioteca Pandas, incluindo:
-    -   [cite_start]Seleção de colunas relevantes.
-    -   [cite_start]Criação de novas colunas (ex: `fullname` a partir de `forename` e `surname`).
-    -   [cite_start]Ajuste e garantia da consistência dos tipos de dados.
--   **Carga:** Carregamento dos dados transformados em um banco de dados PostgreSQL. [cite_start]O script garante a idempotência, limpando as tabelas antes de cada carga para evitar duplicidade.
--   [cite_start]**Banco de Dados:** Criação de tabelas e views SQL para responder a perguntas de negócio específicas, como:
-    -   [cite_start]O resultado de cada corredor por ano (vitórias e pontos).
-    -   [cite_start]O piloto com a volta mais rápida para cada Grande Prêmio.
+    -   Seleção de colunas relevantes.
+    -   Criação de novas colunas (ex: `fullname` a partir de `forename` e `surname`).
+    -   Ajuste e garantia da consistência dos tipos de dados.
+-   **Carga:** Carregamento dos dados transformados em um banco de dados PostgreSQL. O script garante a idempotência, limpando as tabelas antes de cada carga para evitar duplicidade.
+-   **Banco de Dados:** Criação de tabelas e views SQL para responder a perguntas de negócio específicas, como:
+    -   O resultado de cada corredor por ano (vitórias e pontos).
+    -   O piloto com a volta mais rápida para cada Grande Prêmio.
 -   **Explorador de Dados:** Um script interativo (`main_data_explorer.py`) para inspecionar e verificar os dados brutos e transformados diretamente no terminal.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -102,7 +102,7 @@ Esta é a etapa mais crítica. O script precisa se conectar a um banco de dados 
     DB_PORT=5432
     DB_NAME=formula1_db
     DB_USER=postgres
-    DB_PASSWORD=sua_senha_aqui # A senha que você definiu na instalação do PostgreSQL
+    DB_PASSWORD=sua_senha_aqui 
     DB_TYPE=postgresql
     # ... outras variáveis
     ```
@@ -154,12 +154,12 @@ SELECT * FROM view_driver_yearly_results LIMIT 20;
 -- Consultar os resultados da View 2 (voltas mais rápidas)
 SELECT * FROM view_grand_prix_fastest_laps LIMIT 20;
 ```
-[cite_start]Os resultados devem corresponder às saídas de exemplo fornecidas na especificação do projeto.
+Os resultados devem corresponder às saídas de exemplo fornecidas na especificação do projeto.
 
 ---
 ## ✍️ Autor
 
-**Matheus Romero**
+**Matheus Romero Rodrigues Marinho**
 
 -   [LinkedIn](Linkedin.com/in/matheusmrinho)
 -   [GitHub](github.com/matheusmrinho)
