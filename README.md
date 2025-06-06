@@ -161,5 +161,5 @@ Os resultados devem corresponder às saídas de exemplo fornecidas na especifica
 
 **Matheus Romero Rodrigues Marinho**
 
--   [LinkedIn](Linkedin.com/in/matheusmrinho)
--   [GitHub](github.com/matheusmrinho)
+-   [LinkedIn](https://www.linkedin.com/in/matheusmrinho)
+-   [GitHub](https://www.github.com/matheusmrinho)
