@@ -43,10 +43,6 @@ CSV_URLS = {
 }
 MD5_HASH_URL = "https://github.com/CaioSobreira/dti_arquivos/raw/main/arquivos_hash_md5sum.csv"
 
-# Informações do Ambiente (para o README)
-PYTHON_VERSION_USED = os.getenv('PYTHON_VERSION', 'Não especificado')
-SGBD_NAME_USED = os.getenv('SGBD_NAME', 'Não especificado')
-SGBD_VERSION_USED = os.getenv('SGBD_VERSION', 'Não especificado')
 
 # Nomes das tabelas (para consistência)
 TABLE_NAMES = {
