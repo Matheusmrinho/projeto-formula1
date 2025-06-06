@@ -71,7 +71,7 @@ Siga estes passos para configurar o ambiente e executar o projeto.
 
 ### 1. Clonar o Repositório
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO_AQUI>
+git clone https://github.com/Matheusmrinho/projeto-formula1/
 cd formula1_etl
 ```
 
