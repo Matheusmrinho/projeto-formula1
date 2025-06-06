@@ -13,7 +13,7 @@ Os dados são uma amostra do conjunto de dados público **Ergast**, disponibiliz
 
 ## ✨ Funcionalidades
 
--   **Extração:** Download automático dos arquivos CSV de URLs especificadas. [cite_start]O script cria a pasta de destino e verifica hashes MD5 para evitar downloads repetidos e desnecessários.
+-   **Extração:** Download automático dos arquivos CSV de URLs especificadas. O script cria a pasta de destino e verifica hashes MD5 para evitar downloads repetidos e desnecessários.
 -   **Transformação:** Processamento dos dados brutos com a biblioteca Pandas, incluindo:
     -   Seleção de colunas relevantes.
     -   Criação de novas colunas (ex: `fullname` a partir de `forename` e `surname`).
